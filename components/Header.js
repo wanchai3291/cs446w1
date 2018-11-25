@@ -12,6 +12,9 @@ const Header = () => (
         <Link href="/about">
           <a style={linkStyle}>รายชื่อ</a>
         </Link>
+        <Link href="/about">
+          <a style={linkStyle}>รูปภาพ</a>
+        </Link>
     </div>
 )
 

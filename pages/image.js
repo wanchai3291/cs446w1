@@ -5,7 +5,7 @@ class listname extends Component {
     render() {
         return (
             <div>
-                <p> wanchai sirimat </p>
+                <Layout>+++</Layout>
             </div>
         );
     }

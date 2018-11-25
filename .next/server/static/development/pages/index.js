@@ -148,7 +148,21 @@ var Header = function Header() {
       lineNumber: 13
     },
     __self: this
-  }, "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D")));
+  }, "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "\u0E23\u0E39\u0E1B\u0E20\u0E32\u0E1E")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
