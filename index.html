@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>• Project 1 •</title>
+    <title>• หัวข้อ •</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -19,7 +19,6 @@
         background-size: cover;
         background-size: cover;
         font-family: 'Kanit', sans-serif;
-        padding: 20px;
     }
     .bg-fade{
         background: rgba(255, 255, 255, 0.295);
@@ -29,31 +28,46 @@
     }
 </style>
 <body>
-    <ul class="nav justify-content-end">
-        <li class="nav-item" style="background: black;">
-            <a class="nav-link" href="#" style="color: white">หัวข้อ</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white">หัวข้อ</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white">หัวข้อ</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white">หัวข้อ</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white">หัวข้อ</a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">หน้าแรก</a>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">โปรไฟล์</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">รูปภาพ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ข่าว</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">แผนที่</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">กราฟ</a>
+            </li> 
+            </ul>
+        </div> 
+    </nav>
 
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <h1 style="font-size: 64px;margin: 20px 0px 20px 0px;color: white">(หัวเรื่อง ..)</h1>
-            <div class="bg-fade">(ใส่ข้อความ ..)</div>
+    <div class="container-fluid" style="margin-top: 50px">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h1 style="font-size: 64px;margin: 20px 0px 20px 0px;color: white">(หัวข้อ ..)</h1>
+                <div class="bg-fade">(ใส่ข้อความ ..)</div>
+            </div>
+            <div class="col-md-2"></div>
         </div>
-        <div class="col-md-2"></div>
     </div>
     
 </body>
